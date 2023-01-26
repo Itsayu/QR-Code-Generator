@@ -1,7 +1,7 @@
 const wrapper = document.querySelector(".wrapper");
 qrInput = wrapper.querySelector(".form input");
 generateBtn = wrapper.querySelector(".form button");
-qrImg = wrapper.querySelector(".qr_code img");
+qrImg = wrapper.querySelector(".qr-code img");
 let preValue;
 
 generateBtn.addEventListener("click", () => {
